@@ -8,5 +8,5 @@
         mc:Ignorable="d"
         d:DataContext="{d:DesignInstance local:ShellViewModel}"
         Title="Stylet Dynamic Menu" Height="600" Width="1200">
-    <ContentControl s:View.Model="{Binding MainVM}" />
+    <ContentControl s:View.Model="{Binding ActiveItem}" />
 </Window>

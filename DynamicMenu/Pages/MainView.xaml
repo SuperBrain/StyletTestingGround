@@ -15,7 +15,18 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" Text="COMPANY NAME" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,5" />
-        
+        <WrapPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <WrapPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Width" Value="200" />
+                    <Setter Property="Height" Value="120" />
+                    <Setter Property="Margin" Value="5" />
+                </Style>
+            </WrapPanel.Resources>
+            <Button Content="Function 1" />
+            <Button Content="Function 2" />
+            <Button Content="Function 3" />
+        </WrapPanel>
         <StatusBar Grid.Row="2">
             <StatusBarItem Content="Ready" />
         </StatusBar>
