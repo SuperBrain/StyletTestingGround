@@ -7,10 +7,6 @@
         xmlns:local="clr-namespace:Company.WpfApplication1.Pages"
         mc:Ignorable="d"
         d:DataContext="{d:DesignInstance local:ShellViewModel}"
-        Title="Stylet Project" Height="450" Width="800">
-    <Grid>
-        <TextBlock FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center">
-            Hello Stylet!
-        </TextBlock>
-    </Grid>
+        Title="Stylet Dynamic Menu" Height="600" Width="1200">
+    <ContentControl s:View.Model="{Binding MainVM}" />
 </Window>
