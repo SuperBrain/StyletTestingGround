@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Company.WpfApplication1
+namespace DynamicMenu
 {
     /// <summary>
     /// Interaction logic for App.xaml

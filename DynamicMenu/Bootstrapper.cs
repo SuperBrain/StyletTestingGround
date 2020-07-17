@@ -1,8 +1,8 @@
-﻿using Company.WpfApplication1.Pages;
+﻿using DynamicMenu.Pages;
 using Stylet;
 using StyletIoC;
 
-namespace Company.WpfApplication1
+namespace DynamicMenu
 {
     public class Bootstrapper : Bootstrapper<ShellViewModel>
     {

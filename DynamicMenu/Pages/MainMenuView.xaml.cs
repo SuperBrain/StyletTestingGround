@@ -14,11 +14,11 @@ using System.Windows.Shapes;
 namespace DynamicMenu.Pages
 {
     /// <summary>
-    /// Interaction logic for MainView.xaml
+    /// Interaction logic for MainMenuView.xaml
     /// </summary>
-    public partial class MainView : UserControl
+    public partial class MainMenuView : UserControl
     {
-        public MainView()
+        public MainMenuView()
         {
             InitializeComponent();
         }

@@ -3,5 +3,6 @@
 
 This solution contains multiple projects demonstrating the use of Stylet MVVM library for various use-cases.
 
+---
 ### Dynamic Menu
 The goal of this project is to dynamically create a side-menu for all ViewModels added to `Conductor<T>.Collection.OneActive` conductor.
